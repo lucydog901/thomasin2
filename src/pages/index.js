@@ -46,7 +46,7 @@ const IndexPage = () => (
     <div className="container">
   <div className="row">
     <div className="col-sm">
-    <a href="/page-8/"><img src={ringImage8} alt="Ring 8" /></a>
+    <a href="/page-8/"><Image src={ringImage8} alt="Ring 8" /></a>
     </div>
     <div className="col-sm">
     <a href="/page-9/"><img src={ringImage9} alt="Ring 9" /></a>
@@ -69,7 +69,7 @@ const IndexPage = () => (
     <a href="/page-35/"><img src={ringImage35} alt="Ring 35" /></a>
     </div>
     <div className="col-sm">
-    <a href="/page-47/"><img src={ringImage35} alt="Ring 47" /></a>
+    <a href="/page-47/"><img src={ringImage47} alt="Ring 47" /></a>
     </div>
   </div>
   <div className="row">
