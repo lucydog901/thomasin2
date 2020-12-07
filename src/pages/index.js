@@ -1,6 +1,6 @@
 import React from "react"
-import { Link } from "gatsby"
-import Image from "../components/image"
+// import { Link } from "gatsby"
+// import Image from "../components/image"
 
 import ringImage8 from "../images/8.jpg"
 import ringImage9 from "../images/9.jpg"
@@ -162,8 +162,7 @@ const IndexPage = () => (
 
 
 
-    <Link to="/page-2/">Go to page 2</Link> <br />
-    <Link to="/using-typescript/">Go to "Using TypeScript"</Link>
+
   </Layout>
 )
 

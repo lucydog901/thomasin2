@@ -7,6 +7,7 @@ import ringImage8a from "../images/8a.jpg"
 import ringImage8b from "../images/8b.jpg"
 import ringImage8c from "../images/8c.jpg"
 
+
 export default function SimpleSlider() {
     var settings = {
       dots: true,
@@ -16,6 +17,8 @@ export default function SimpleSlider() {
       slidesToScroll: 1
     };
     return (
+      <div className="container">
+      <div className="card">
       <Slider {...settings}>
       
         <div class="adimg ad1img">
@@ -31,5 +34,16 @@ export default function SimpleSlider() {
         <img src={ringImage8c} alt="Ring 8c" />
         </div>
       </Slider>
+    
+      
+<div className="card-body">
+  <h6 className="card-title"><b>Ring #8</b></h6>
+  <p className="card-subtitle mb-2">made 01/08/10</p>
+  <p className="card-text">Copper wires were soldered to the inside of the copper bezel cup and then slid inside of the plug adapter, making this a truly dangerous ring.</p>
+  <a href="/page-9" class="btn btn-primary">Next Ring</a>
+</div>
+</div>
+</div>
     );
   }
+
