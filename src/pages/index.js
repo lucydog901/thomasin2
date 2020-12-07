@@ -31,7 +31,7 @@ import ringImage253 from "../images/253.jpg"
 import ringImage264 from "../images/264.jpg"
 import ringImage285 from "../images/285.jpg"
 import ringImage286 from "../images/286.jpg"
-import ringImage300 from "../images/300.jpg"
+import ringImage300a from "../images/300a.jpg"
 import ringImage304b from "../images/304b.jpg"
 import ringImage365 from "../images/365.jpg"
 
@@ -46,114 +46,114 @@ const IndexPage = () => (
     <div className="container">
   <div className="row">
     <div className="col-sm">
-    <a href="/page-8/"><img src={ringImage8} alt="Ring 8" /></a>
+    <a href="/page-8/"><img src={ringImage8} alt="Ring 8" class="thumbnail"/></a>
     </div>
     <div className="col-sm">
-    <a href="/page-9/"><img src={ringImage9} alt="Ring 9" /></a>
+    <a href="/page-9/"><img src={ringImage9} alt="Ring 9" class="thumbnail"/></a>
     </div>
     <div className="col-sm">
-    <a href="/page-13/"><img src={ringImage13} alt="Ring 13" /></a>
+    <a href="/page-13/"><img src={ringImage13} alt="Ring 13" class="thumbnail"/></a>
     </div>
     <div className="col-sm">
-    <a href="/page-24/"><img src={ringImage24} alt="Ring 24" /></a>
-    </div>
-  </div>
-  <div className="row">
-    <div className="col-sm">
-    <a href="/page-31/"><img src={ringImage31} alt="Ring 31" /></a>
-    </div>
-    <div className="col-sm">
-    <a href="/page-32/"><img src={ringImage32} alt="Ring 32" /></a>
-    </div>
-    <div className="col-sm">
-    <a href="/page-35/"><img src={ringImage35} alt="Ring 35" /></a>
-    </div>
-    <div className="col-sm">
-    <a href="/page-47/"><img src={ringImage47} alt="Ring 47" /></a>
+    <a href="/page-24/"><img src={ringImage24} alt="Ring 24" class="thumbnail"/></a>
     </div>
   </div>
   <div className="row">
     <div className="col-sm">
-    <img src={ringImage53} alt="Ring 53" />
+    <a href="/page-31/"><img src={ringImage31} alt="Ring 31" class="thumbnail"/></a>
     </div>
     <div className="col-sm">
-    <img src={ringImage76} alt="Ring 76" />
+    <a href="/page-32/"><img src={ringImage32} alt="Ring 32" class="thumbnail"/></a>
     </div>
     <div className="col-sm">
-    <img src={ringImage79} alt="Ring 79" />
+    <a href="/page-35/"><img src={ringImage35} alt="Ring 35" class="thumbnail"/></a>
     </div>
     <div className="col-sm">
-    <img src={ringImage83} alt="Ring 83" />
-    </div>
-  </div>
-  <div className="row">
-    <div className="col-sm">
-    <img src={ringImage92} alt="Ring 92" />
-    </div>
-    <div className="col-sm">
-    <img src={ringImage100} alt="Ring 100" />
-    </div>
-    <div className="col-sm">
-    <img src={ringImage106} alt="Ring 106" />
-    </div>
-    <div className="col-sm">
-    <img src={ringImage107} alt="Ring 107" />
+    <a href="/page-47/"><img src={ringImage47} alt="Ring 47" class="thumbnail"/></a>
     </div>
   </div>
   <div className="row">
     <div className="col-sm">
-    <img src={ringImage108} alt="Ring 108" />
+    <img src={ringImage53} alt="Ring 53" class="thumbnail"/>
     </div>
     <div className="col-sm">
-    <img src={ringImage111} alt="Ring 111" />
+    <img src={ringImage76} alt="Ring 76" class="thumbnail"/>
     </div>
     <div className="col-sm">
-    <img src={ringImage119} alt="Ring 119" />
+    <img src={ringImage79} alt="Ring 79" class="thumbnail"/>
     </div>
     <div className="col-sm">
-    <img src={ringImage156} alt="Ring 156" />
-    </div>
-  </div>
-  <div className="row">
-    <div className="col-sm">
-    <img src={ringImage183} alt="Ring 183" />
-    </div>
-    <div className="col-sm">
-    <img src={ringImage221} alt="Ring 221" />
-    </div>
-    <div className="col-sm">
-    <img src={ringImage225} alt="Ring 225" />
-    </div>
-    <div className="col-sm">
-    <img src={ringImage233} alt="Ring 233" />
+    <img src={ringImage83} alt="Ring 83" class="thumbnail"/>
     </div>
   </div>
   <div className="row">
     <div className="col-sm">
-    <img src={ringImage240} alt="Ring 240" />
+    <img src={ringImage92} alt="Ring 92" class="thumbnail"/>
     </div>
     <div className="col-sm">
-    <img src={ringImage253} alt="Ring 253" />
+    <img src={ringImage100} alt="Ring 100" class="thumbnail"/>
     </div>
     <div className="col-sm">
-    <img src={ringImage264} alt="Ring 264" />
+    <img src={ringImage106} alt="Ring 106" class="thumbnail"/>
     </div>
     <div className="col-sm">
-    <img src={ringImage285} alt="Ring 285" />
+    <img src={ringImage107} alt="Ring 107" class="thumbnail"/>
     </div>
   </div>
   <div className="row">
     <div className="col-sm">
-    <img src={ringImage286} alt="Ring 286" />
+    <img src={ringImage108} alt="Ring 108" class="thumbnail"/>
     </div>
     <div className="col-sm">
-    <img src={ringImage300} alt="Ring 300" />
+    <img src={ringImage111} alt="Ring 111" class="thumbnail"/>
     </div>
     <div className="col-sm">
-    <img src={ringImage304b} alt="Ring 304b" />
+    <img src={ringImage119} alt="Ring 119" class="thumbnail"/>
     </div>
     <div className="col-sm">
-    <img src={ringImage365} alt="Ring 365" />
+    <img src={ringImage156} alt="Ring 156" class="thumbnail"/>
+    </div>
+  </div>
+  <div className="row">
+    <div className="col-sm">
+    <img src={ringImage183} alt="Ring 183" class="thumbnail"/>
+    </div>
+    <div className="col-sm">
+    <img src={ringImage221} alt="Ring 221" class="thumbnail"/>
+    </div>
+    <div className="col-sm">
+    <img src={ringImage225} alt="Ring 225" class="thumbnail"/>
+    </div>
+    <div className="col-sm">
+    <img src={ringImage233} alt="Ring 233" class="thumbnail"/>
+    </div>
+  </div>
+  <div className="row">
+    <div className="col-sm">
+    <img src={ringImage240} alt="Ring 240" class="thumbnail"/>
+    </div>
+    <div className="col-sm">
+    <img src={ringImage253} alt="Ring 253" class="thumbnail"/>
+    </div>
+    <div className="col-sm">
+    <img src={ringImage264} alt="Ring 264" class="thumbnail"/>
+    </div>
+    <div className="col-sm">
+    <img src={ringImage285} alt="Ring 285" class="thumbnail"/>
+    </div>
+  </div>
+  <div className="row">
+    <div className="col-sm">
+    <img src={ringImage286} alt="Ring 286" class="thumbnail"/>
+    </div>
+    <div className="col-sm">
+    <img src={ringImage300a} alt="Ring 300a" class="thumbnail"/>
+    </div>
+    <div className="col-sm">
+    <img src={ringImage304b} alt="Ring 304b" class="thumbnail"/>
+    </div>
+    <div className="col-sm">
+    <img src={ringImage365} alt="Ring 365" class="thumbnail"/>
     </div>
   </div>
 </div>
