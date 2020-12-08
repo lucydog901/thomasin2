@@ -5,6 +5,9 @@
   border-radius:10%;
 }
 
+.card {
+  width: 450px;
+}
 
 .adimg img{
   margin: 0 auto;
