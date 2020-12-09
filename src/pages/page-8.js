@@ -6,6 +6,7 @@ import ringImage8 from "../images/8.jpg"
 import ringImage8a from "../images/8a.jpg"
 import ringImage8b from "../images/8b.jpg"
 import ringImage8c from "../images/8c.jpg"
+import Layout from "../components/layout"
 
 
 export default function SimpleSlider() {
@@ -17,6 +18,7 @@ export default function SimpleSlider() {
       slidesToScroll: 1
     };
     return (
+      <Layout>
       <div className="container">
       <div className="card">
       <Slider {...settings}>
@@ -45,6 +47,7 @@ export default function SimpleSlider() {
 </div>
 </div>
 </div>
+</Layout>
     );
   }
 
