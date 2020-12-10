@@ -23,10 +23,10 @@ const IndexPage = () => (
     <a href="/everyday/"><img src={ringImage92} alt="Ring 92" class="thumbnail"/></a>
     </div>
     <div className="col-6 col-md-4 col-lg-3">
-    <a href="/page-8/"><img src={ringImage264} alt="Ring 264" class="thumbnail"/></a>
+    <a href="/unusual/"><img src={ringImage264} alt="Ring 264" class="thumbnail"/></a>
     </div>
     <div className="col-6 col-md-4 col-lg-3">
-    <a href="/page-8/"><img src={ringImagesr1a} alt="Ring sr1a" class="thumbnail"/></a>
+    <a href="/sculpture/"><img src={ringImagesr1a} alt="Ring sr1a" class="thumbnail"/></a>
     </div>
   </div>
   <div className="row">
