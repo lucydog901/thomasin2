@@ -20,7 +20,7 @@ const IndexPage = () => (
     <div className="container">
   <div className="row">
     <div className="col-6 col-md-4 col-lg-3">
-    <a href="/page-8/"><img src={ringImage92} alt="Ring 92" class="thumbnail"/></a>
+    <a href="/everyday/"><img src={ringImage92} alt="Ring 92" class="thumbnail"/></a>
     </div>
     <div className="col-6 col-md-4 col-lg-3">
     <a href="/page-8/"><img src={ringImage264} alt="Ring 264" class="thumbnail"/></a>
