@@ -1,4 +1,6 @@
 import React from "react"
+// import { ModalRoutingContext } from 'gatsby-plugin-modal-routing'
+import { Link } from 'gatsby-plugin-modal-routing'
 // import Image from "../components/image"
 
 import ringImage79 from "../images/everyday/79.jpg"
@@ -21,7 +23,7 @@ import ringImager8 from "../images/everyday/r8.jpg"
 
 import Layout from "../components/layout"
 import SEO from "../components/seo"
-import { Link } from "gatsby"
+// import { Link } from "gatsby"
 
 const IndexPage = () => (
   <Layout>
@@ -32,7 +34,7 @@ const IndexPage = () => (
     <div className="container">
   <div className="row">
     <div className="col-6 col-md-4 col-lg-3">
-    <Link to="/page-79/"><img src={ringImage79} alt="Ring 79" class="thumbnail"/></Link>
+    <Link to="/page-79/" asModal><img src={ringImage79} alt="Ring 79" class="thumbnail"/></Link>
     </div>
     <div className="col-6 col-md-4 col-lg-3">
     <Link to="/page-8/"><img src={ringImage365} alt="Ring 365" class="thumbnail"/></Link>

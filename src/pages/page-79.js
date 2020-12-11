@@ -6,7 +6,7 @@ import ringImage79 from "../images/everyday/79.jpg"
 import ringImage79a from "../images/everyday/79a.jpg"
 import ringImage79b from "../images/everyday/79b.jpg"
 
-import Layout from "../components/layout"
+// import Layout from "../components/layout"
 
 
 export default function SimpleSlider() {
@@ -20,7 +20,7 @@ export default function SimpleSlider() {
       
     };
     return (
-      <Layout>
+     
       <div className="container">
       <div className="card">
       <Slider {...settings}>
@@ -45,7 +45,7 @@ export default function SimpleSlider() {
 </div>
 </div>
 </div>
-</Layout>
+
     );
   }
 
