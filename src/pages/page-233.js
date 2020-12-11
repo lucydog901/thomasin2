@@ -47,8 +47,9 @@ export default function SimpleSlider() {
       
 <div className="card-body"><br></br>
   <p className="card-text">Sterling silver and cherry wood with brass inlay.</p>
-  <a href="/everyday" class="btn btn-secondary btn-block">Back to Gallery</a>
   <a href="/page-285" class="btn btn-secondary btn-block">Next Ring</a>
+  <a href="/everyday" class="btn btn-secondary btn-block">Back to Gallery</a>
+  
 </div>
 
 </div>

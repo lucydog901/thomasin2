@@ -43,8 +43,9 @@ export default function SimpleSlider() {
       
 <div className="card-body"><br></br>
   <p className="card-text">Sterling silver shadow box with etched copper and freshwater pearl.</p>
+  <a href="/page-233" class="btn btn-secondary btn-block">Next Ring</a>
   <a href="/everyday" class="btn btn-secondary btn-block">Back to Gallery</a>
-  <a href="/page-365" class="btn btn-secondary btn-block">Next Ring</a>
+  
 </div>
 
 </div>

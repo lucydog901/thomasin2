@@ -2,9 +2,9 @@ import React from "react";
 import Slider from "react-slick";
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
-import ringImage111 from "../images/everyday/111.jpg"
-import ringImage111a from "../images/everyday/111a.jpg"
-
+import ringImage119 from "../images/everyday/119.jpg"
+import ringImage119a from "../images/everyday/119a.jpg"
+import ringImage119b from "../images/everyday/119b.jpg"
 // import { Link } from 'gatsby-plugin-modal-routing'
 // import { Link } from "gatsby"
 
@@ -29,21 +29,23 @@ export default function SimpleSlider() {
       <Slider {...settings}>
       
         <div class="adimg ad1img">
-        <img src={ringImage111} alt="Ring 111" />
+        <img src={ringImage119} alt="Ring 119" />
         </div>
         <div class="adimg ad2img">
-        <img src={ringImage111a} alt="Ring 111a" />
+        <img src={ringImage119a} alt="Ring 119a" />
         </div>
-      
+        <div class="adimg ad3img">
+        <img src={ringImage119b} alt="Ring 119b" />
+        </div>
      
       </Slider>
     
       
 <div className="card-body"><br></br>
-  <p className="card-text">Sterling silver shadow box with aquamarine. The stone is set in a bezel made of copper tubing from the HVAC system of The Memphis Brooks Museum of Art.</p>
-  <a href="/page-79" class="btn btn-secondary btn-block">Next Ring</a>
+  <p className="card-text">Sterling silver and prong set spessartine garnet.</p>
+  <a href="/page-365" class="btn btn-secondary btn-block">Next Ring</a>
   <a href="/everyday" class="btn btn-secondary btn-block">Back to Gallery</a>
- 
+  
 </div>
 
 </div>

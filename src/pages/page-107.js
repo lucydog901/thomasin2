@@ -43,8 +43,9 @@ export default function SimpleSlider() {
       
 <div className="card-body"><br></br>
   <p className="card-text">Sterling silver and African amethyst cabochon.</p>
-  <a href="/everyday" class="btn btn-secondary btn-block">Back to Gallery</a>
   <a href="/page-111" class="btn btn-secondary btn-block">Next Ring</a>
+  <a href="/everyday" class="btn btn-secondary btn-block">Back to Gallery</a>
+
 </div>
 
 </div>

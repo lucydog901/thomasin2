@@ -43,8 +43,9 @@ export default function SimpleSlider() {
       
 <div className="card-body"><br></br>
   <p className="card-text">Sterling silver and pink tourmaline with a square band.</p>
-  <a href="/everyday" class="btn btn-secondary btn-block">Back to Gallery</a>
   <a href="/page-107" class="btn btn-secondary btn-block">Next Ring</a>
+  <a href="/everyday" class="btn btn-secondary btn-block">Back to Gallery</a>
+ 
 </div>
 
 </div>
