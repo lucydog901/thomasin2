@@ -62,30 +62,30 @@ const IndexPage = () => (
   </div>
   <div className="row">
     <div className="col-6 col-md-4 col-lg-3">
-    <Link to="/page-8/"><img src={ringImager9} alt="Ring r9" class="thumbnail"/></Link>
+    <Link to="/page-r9/"><img src={ringImager9} alt="Ring r9" class="thumbnail"/></Link>
     </div>
     <div className="col-6 col-md-4 col-lg-3">
-    <Link to="/page-8/"><img src={ringImager2} alt="Ring r2" class="thumbnail"/></Link>
+    <Link to="/page-r2/"><img src={ringImager2} alt="Ring r2" class="thumbnail"/></Link>
     </div>
     <div className="col-6 col-md-4 col-lg-3">
-    <Link to="/page-8/"><img src={ringImager3} alt="Ring r3" class="thumbnail"/></Link>
+    <Link to="/page-r3/"><img src={ringImager3} alt="Ring r3" class="thumbnail"/></Link>
     </div>
     <div className="col-6 col-md-4 col-lg-3">
-    <Link to="/page-8/"><img src={ringImager4} alt="Ring r4" class="thumbnail"/></Link>
+    <Link to="/page-r4/"><img src={ringImager4} alt="Ring r4" class="thumbnail"/></Link>
     </div>
   </div>
   <div className="row">
     <div className="col-6 col-md-4 col-lg-3">
-    <Link to="/page-8/"><img src={ringImager5} alt="Ring r5" class="thumbnail"/></Link>
+    <Link to="/page-r5/"><img src={ringImager5} alt="Ring r5" class="thumbnail"/></Link>
     </div>
     <div className="col-6 col-md-4 col-lg-3">
-    <Link to="/page-8/"><img src={ringImager6} alt="Ring r6" class="thumbnail"/></Link>
+    <Link to="/page-r6/"><img src={ringImager6} alt="Ring r6" class="thumbnail"/></Link>
     </div>
     <div className="col-6 col-md-4 col-lg-3">
-    <Link to="/page-8/"><img src={ringImager7} alt="Ring r7" class="thumbnail"/></Link>
+    <Link to="/page-r7/"><img src={ringImager7} alt="Ring r7" class="thumbnail"/></Link>
     </div>
     <div className="col-6 col-md-4 col-lg-3">
-    <Link to="/page-8/"><img src={ringImager8} alt="Ring r8" class="thumbnail"/></Link>
+    <Link to="/page-r8/"><img src={ringImager8} alt="Ring r8" class="thumbnail"/></Link>
     </div>
   </div>
 </div>
