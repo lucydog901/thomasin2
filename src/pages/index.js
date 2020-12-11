@@ -1,6 +1,5 @@
 import React from "react"
-
-// import { Link } from "gatsby"
+import { Link } from "gatsby"
 // import Image from "../components/image"
 
 import ringImage92 from "../images/everyday/92.jpg"
@@ -20,13 +19,13 @@ const IndexPage = () => (
     <div className="container">
   <div className="row">
     <div className="col-6 col-md-4 col-lg-3">
-    <a href="/everyday/"><img src={ringImage92} alt="Ring 92" class="thumbnail"/></a>
+    <Link to="/everyday/"><img src={ringImage92} alt="Ring 92" class="thumbnail"/></Link>
     </div>
     <div className="col-6 col-md-4 col-lg-3">
-    <a href="/unusual/"><img src={ringImage264} alt="Ring 264" class="thumbnail"/></a>
+    <Link to="/unusual/"><img src={ringImage264} alt="Ring 264" class="thumbnail"/></Link>
     </div>
     <div className="col-6 col-md-4 col-lg-3">
-    <a href="/sculpture/"><img src={ringImagesr1a} alt="Ring sr1a" class="thumbnail"/></a>
+    <Link to="/sculpture/"><img src={ringImagesr1a} alt="Ring sr1a" class="thumbnail"/></Link>
     </div>
   </div>
   <div className="row">

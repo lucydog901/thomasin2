@@ -7,6 +7,7 @@ import ringImage8a from "../images/unusual/8a.jpg"
 import ringImage8b from "../images/unusual/8b.jpg"
 import ringImage8c from "../images/unusual/8c.jpg"
 import Layout from "../components/layout"
+import { Link } from "gatsby"
 
 
 export default function SimpleSlider() {
@@ -42,8 +43,8 @@ export default function SimpleSlider() {
   <h5 className="card-title"><b>Ring #8</b></h5>
   <p className="card-subtitle">made 01/08/10</p><br></br>
   <p className="card-text">Copper wires were soldered to the inside of the copper bezel cup and then slid inside of the plug adapter, making this a truly dangerous ring.</p>
-  <a href="/" class="btn btn-secondary btn-block">Back to Gallery</a>
-  <a href="/page-8" class="btn btn-secondary btn-block">Next Ring</a>
+  <Link to="/" class="btn btn-secondary btn-block">Back to Gallery</Link>
+  <Link to="/page-8" class="btn btn-secondary btn-block">Next Ring</Link>
 </div>
 </div>
 </div>
