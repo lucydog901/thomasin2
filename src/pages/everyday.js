@@ -37,10 +37,10 @@ const IndexPage = () => (
     <Link to="/page-79/" asModal><img src={ringImage79} alt="Ring 79" class="thumbnail"/></Link>
     </div>
     <div className="col-6 col-md-4 col-lg-3">
-    <Link to="/page-8/"><img src={ringImage365} alt="Ring 365" class="thumbnail"/></Link>
+    <Link to="/page-365/"><img src={ringImage365} alt="Ring 365" class="thumbnail"/></Link>
     </div>
     <div className="col-6 col-md-4 col-lg-3">
-    <Link to="/page-8/"><img src={ringImage107} alt="Ring 107" class="thumbnail"/></Link>
+    <Link to="/page-107/"><img src={ringImage107} alt="Ring 107" class="thumbnail"/></Link>
     </div>
     <div className="col-6 col-md-4 col-lg-3">
     <Link to="/page-8/"><img src={ringImage111} alt="Ring 111" class="thumbnail"/></Link>
@@ -48,16 +48,16 @@ const IndexPage = () => (
   </div>
   <div className="row">
     <div className="col-6 col-md-4 col-lg-3">
-    <Link to="/page-8/"><img src={ringImage119} alt="Ring 119" class="thumbnail"/></Link>
+    <Link to="/page-79/" asModal><img src={ringImage119} alt="Ring 119" class="thumbnail"/></Link>
     </div>
     <div className="col-6 col-md-4 col-lg-3">
-    <Link to="/page-8/"><img src={ringImage233} alt="Ring 233" class="thumbnail"/></Link>
+    <Link to="/page-233/"><img src={ringImage233} alt="Ring 233" class="thumbnail"/></Link>
     </div>
     <div className="col-6 col-md-4 col-lg-3">
     <Link to="/page-8/"><img src={ringImage285} alt="Ring 285" class="thumbnail"/></Link>
     </div>
     <div className="col-6 col-md-4 col-lg-3">
-    <Link to="/page-8/"><img src={ringImage92} alt="Ring 92" class="thumbnail"/></Link>
+    <Link to="/page-92/"><img src={ringImage92} alt="Ring 92" class="thumbnail"/></Link>
     </div>
   </div>
   <div className="row">

@@ -2,9 +2,9 @@ import React from "react";
 import Slider from "react-slick";
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
-import ringImage79 from "../images/everyday/79.jpg"
-import ringImage79a from "../images/everyday/79a.jpg"
-import ringImage79b from "../images/everyday/79b.jpg"
+import ringImage92 from "../images/everyday/92.jpg"
+import ringImage92a from "../images/everyday/92a.jpg"
+import ringImage92b from "../images/everyday/92b.jpg"
 // import { Link } from 'gatsby-plugin-modal-routing'
 // import { Link } from "gatsby"
 
@@ -29,22 +29,22 @@ export default function SimpleSlider() {
       <Slider {...settings}>
       
         <div class="adimg ad1img">
-        <img src={ringImage79} alt="Ring 79" />
+        <img src={ringImage92} alt="Ring 92" />
         </div>
         <div class="adimg ad2img">
-        <img src={ringImage79a} alt="Ring 79a" />
+        <img src={ringImage92a} alt="Ring 92a" />
         </div>
         <div class="adimg ad3img">
-        <img src={ringImage79b} alt="Ring 79b" />
+        <img src={ringImage92b} alt="Ring 92b" />
         </div>
      
       </Slider>
     
       
 <div className="card-body"><br></br>
-  <p className="card-text">Sterling silver shadow box with etched copper and freshwater pearl.</p>
+  <p className="card-text">Sterling silver shadow box with drilled copper and pink tourmaline cabochon.</p>
   <a href="/everyday" class="btn btn-secondary btn-block">Back to Gallery</a>
-  <a href="/page-365" class="btn btn-secondary btn-block">Next Ring</a>
+  <a href="/page-r9" class="btn btn-secondary btn-block">Next Ring</a>
 </div>
 
 </div>
