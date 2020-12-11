@@ -5,7 +5,7 @@ import "slick-carousel/slick/slick-theme.css";
 import ringImager5 from "../images/everyday/r5.jpg"
 import ringImager5a from "../images/everyday/r5a.jpg"
 import ringImager5b from "../images/everyday/r5b.jpg"
-// import { Link } from 'gatsby-plugin-modal-routing'
+import { Link } from 'gatsby-plugin-modal-routing'
 // import { Link } from "gatsby"
 
 
@@ -44,7 +44,7 @@ export default function SimpleSlider() {
       
 <div className="card-body"><br></br>
   <p className="card-text">Oxidized sterling silver with agate cabochon.</p>
-  <a href="/page-r6" class="btn btn-secondary btn-block">Next Ring</a>
+  <Link to="/page-r6" asModal class="btn btn-secondary btn-block">Next Ring</Link>
   <a href="/everyday" class="btn btn-secondary btn-block">Back to Gallery</a>
   
 </div>

@@ -5,7 +5,7 @@ import "slick-carousel/slick/slick-theme.css";
 import ringImage111 from "../images/everyday/111.jpg"
 import ringImage111a from "../images/everyday/111a.jpg"
 
-// import { Link } from 'gatsby-plugin-modal-routing'
+import { Link } from 'gatsby-plugin-modal-routing'
 // import { Link } from "gatsby"
 
 
@@ -41,7 +41,7 @@ export default function SimpleSlider() {
       
 <div className="card-body"><br></br>
   <p className="card-text">Sterling silver shadow box with aquamarine. The stone is set in a bezel made of copper tubing from the HVAC system of The Memphis Brooks Museum of Art.</p>
-  <a href="/page-79" class="btn btn-secondary btn-block">Next Ring</a>
+  <Link to="/page-79" asModal class="btn btn-secondary btn-block">Next Ring</Link>
   <a href="/everyday" class="btn btn-secondary btn-block">Back to Gallery</a>
  
 </div>

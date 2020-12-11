@@ -6,7 +6,7 @@ import ringImage233 from "../images/everyday/233.jpg"
 import ringImage233a from "../images/everyday/233a.jpg"
 import ringImage233b from "../images/everyday/233b.jpg"
 import ringImage233c from "../images/everyday/233c.jpg"
-// import { Link } from 'gatsby-plugin-modal-routing'
+import { Link } from 'gatsby-plugin-modal-routing'
 // import { Link } from "gatsby"
 
 
@@ -47,7 +47,7 @@ export default function SimpleSlider() {
       
 <div className="card-body"><br></br>
   <p className="card-text">Sterling silver and cherry wood with brass inlay.</p>
-  <a href="/page-285" class="btn btn-secondary btn-block">Next Ring</a>
+  <Link to="/page-285" asModal class="btn btn-secondary btn-block">Next Ring</Link>
   <a href="/everyday" class="btn btn-secondary btn-block">Back to Gallery</a>
   
 </div>
