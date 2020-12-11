@@ -6,10 +6,12 @@ import ringImage119 from "../images/everyday/119.jpg"
 import ringImage119a from "../images/everyday/119a.jpg"
 import ringImage119b from "../images/everyday/119b.jpg"
 // import { Link } from 'gatsby-plugin-modal-routing'
-// import { Link } from "gatsby"
+import { Link } from "gatsby"
+// import { navigate } from 'gatsby'
 
 
 // import Layout from "../components/layout"
+
 
 
 export default function SimpleSlider() {
@@ -43,7 +45,7 @@ export default function SimpleSlider() {
       
 <div className="card-body"><br></br>
   <p className="card-text">Sterling silver and prong set spessartine garnet.</p>
-  <a href="/page-365" class="btn btn-secondary btn-block">Next Ring</a>
+  <Link to="/page-365" class="btn btn-secondary btn-block">Next Ring</Link>
   <a href="/everyday" class="btn btn-secondary btn-block">Back to Gallery</a>
   
 </div>

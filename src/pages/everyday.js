@@ -1,7 +1,7 @@
 import React from "react"
 // import { ModalRoutingContext } from 'gatsby-plugin-modal-routing'
 import { Link } from 'gatsby-plugin-modal-routing'
-// import Image from "../components/image"
+// import Img from "gatsby-image"
 
 import ringImage79 from "../images/everyday/79.jpg"
 import ringImage92 from "../images/everyday/92.jpg"
@@ -37,13 +37,13 @@ const IndexPage = () => (
     <Link to="/page-119/" asModal><img src={ringImage119} alt="Ring 119" class="thumbnail"/></Link>
     </div>
     <div className="col-6 col-md-4 col-lg-3">
-    <Link to="/page-365/"><img src={ringImage365} alt="Ring 365" class="thumbnail"/></Link>
+    <Link to="/page-365/" asModal><img src={ringImage365} alt="Ring 365" class="thumbnail"/></Link>
     </div>
     <div className="col-6 col-md-4 col-lg-3">
-    <Link to="/page-107/"><img src={ringImage107} alt="Ring 107" class="thumbnail"/></Link>
+    <Link to="/page-107/" asModal><img src={ringImage107} alt="Ring 107" class="thumbnail"/></Link>
     </div>
     <div className="col-6 col-md-4 col-lg-3">
-    <Link to="/page-111/"><img src={ringImage111} alt="Ring 111" class="thumbnail"/></Link>
+    <Link to="/page-111/" asModal><img src={ringImage111} alt="Ring 111" class="thumbnail"/></Link>
     </div>
   </div>
   <div className="row">
@@ -51,41 +51,41 @@ const IndexPage = () => (
     <Link to="/page-79/" asModal><img src={ringImage79} alt="Ring 79" class="thumbnail"/></Link>
     </div>
     <div className="col-6 col-md-4 col-lg-3">
-    <Link to="/page-233/"><img src={ringImage233} alt="Ring 233" class="thumbnail"/></Link>
+    <Link to="/page-233/" asModal><img src={ringImage233} alt="Ring 233" class="thumbnail"/></Link>
     </div>
     <div className="col-6 col-md-4 col-lg-3">
-    <Link to="/page-285/"><img src={ringImage285} alt="Ring 285" class="thumbnail"/></Link>
+    <Link to="/page-285/" asModal><img src={ringImage285} alt="Ring 285" class="thumbnail"/></Link>
     </div>
     <div className="col-6 col-md-4 col-lg-3">
-    <Link to="/page-92/"><img src={ringImage92} alt="Ring 92" class="thumbnail"/></Link>
-    </div>
-  </div>
-  <div className="row">
-    <div className="col-6 col-md-4 col-lg-3">
-    <Link to="/page-r9/"><img src={ringImager9} alt="Ring r9" class="thumbnail"/></Link>
-    </div>
-    <div className="col-6 col-md-4 col-lg-3">
-    <Link to="/page-r2/"><img src={ringImager2} alt="Ring r2" class="thumbnail"/></Link>
-    </div>
-    <div className="col-6 col-md-4 col-lg-3">
-    <Link to="/page-r3/"><img src={ringImager3} alt="Ring r3" class="thumbnail"/></Link>
-    </div>
-    <div className="col-6 col-md-4 col-lg-3">
-    <Link to="/page-r4/"><img src={ringImager4} alt="Ring r4" class="thumbnail"/></Link>
+    <Link to="/page-92/" asModal><img src={ringImage92} alt="Ring 92" class="thumbnail"/></Link>
     </div>
   </div>
   <div className="row">
     <div className="col-6 col-md-4 col-lg-3">
-    <Link to="/page-r5/"><img src={ringImager5} alt="Ring r5" class="thumbnail"/></Link>
+    <Link to="/page-r9/" asModal><img src={ringImager9} alt="Ring r9" class="thumbnail"/></Link>
     </div>
     <div className="col-6 col-md-4 col-lg-3">
-    <Link to="/page-r6/"><img src={ringImager6} alt="Ring r6" class="thumbnail"/></Link>
+    <Link to="/page-r2/" asModal><img src={ringImager2} alt="Ring r2" class="thumbnail"/></Link>
     </div>
     <div className="col-6 col-md-4 col-lg-3">
-    <Link to="/page-r7/"><img src={ringImager7} alt="Ring r7" class="thumbnail"/></Link>
+    <Link to="/page-r3/" asModal><img src={ringImager3} alt="Ring r3" class="thumbnail"/></Link>
     </div>
     <div className="col-6 col-md-4 col-lg-3">
-    <Link to="/page-r8/"><img src={ringImager8} alt="Ring r8" class="thumbnail"/></Link>
+    <Link to="/page-r4/" asModal><img src={ringImager4} alt="Ring r4" class="thumbnail"/></Link>
+    </div>
+  </div>
+  <div className="row">
+    <div className="col-6 col-md-4 col-lg-3">
+    <Link to="/page-r5/" asModal><img src={ringImager5} alt="Ring r5" class="thumbnail"/></Link>
+    </div>
+    <div className="col-6 col-md-4 col-lg-3">
+    <Link to="/page-r6/" asModal><img src={ringImager6} alt="Ring r6" class="thumbnail"/></Link>
+    </div>
+    <div className="col-6 col-md-4 col-lg-3">
+    <Link to="/page-r7/" asModal><img src={ringImager7} alt="Ring r7" class="thumbnail"/></Link>
+    </div>
+    <div className="col-6 col-md-4 col-lg-3">
+    <Link to="/page-r8/" asModal><img src={ringImager8} alt="Ring r8" class="thumbnail"/></Link>
     </div>
   </div>
 </div>
