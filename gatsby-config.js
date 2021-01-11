@@ -1,6 +1,6 @@
 module.exports = {
   siteMetadata: {
-    title: `Thomasin Durgin - Rings`,
+    title: `Thomasin Durgin - Portfolio`,
     description: `Rings made by Thomasin Durgin`,
     author: `@gatsbyjs`,
   },
