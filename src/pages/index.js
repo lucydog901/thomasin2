@@ -21,11 +21,12 @@ const IndexPage = () => (
     <div className="col-6 col-md-4 col-lg-3">
     <Link to="/everyday/"><img src={ringImage92} alt="Ring 92" class="thumbnail"/></Link>
     </div>
-    <div className="col-6 col-md-4 col-lg-3">
-    <Link to="/unusual/"><img src={ringImage264} alt="Ring 264" class="thumbnail"/></Link>
-    </div>
+    
     <div className="col-6 col-md-4 col-lg-3">
     <Link to="/sculpture/"><img src={ringImagesr1a} alt="Ring sr1a" class="thumbnail"/></Link>
+    </div>
+    <div className="col-6 col-md-4 col-lg-3">
+    <Link to="/unusual/"><img src={ringImage264} alt="Ring 264" class="thumbnail"/></Link>
     </div>
   </div>
   <div className="row">
@@ -33,10 +34,10 @@ const IndexPage = () => (
     <h6 align="center">Every Day Rings</h6>
     </div>
     <div className="col-6 col-md-4 col-lg-3">
-    <h6 align="center">Unusual Rings</h6>
+    <h6 align="center">Rings as Sculpture</h6>
     </div>
     <div className="col-6 col-md-4 col-lg-3">
-    <h6 align="center">Rings as Sculpture</h6>
+    <h6 align="center">Unusual Rings</h6>
     </div>
   </div>
 </div>
