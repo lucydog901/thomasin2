@@ -18,39 +18,39 @@ import { Link } from "gatsby"
 const IndexPage = () => (
   <Layout>
     <SEO title="Home" />
-    
+
 
 
     <div className="container">
-  <div className="row">
-    <div className="col-6 col-md-4 col-lg-3">
-    <Link to="/page-8/"><img src={ringImagesr4} alt="Ring sr4" class="thumbnail"/></Link>
+      <div className="row">
+        <div className="col-6 col-md-4 col-lg-3">
+          <Link to="/page-sr4/"><img src={ringImagesr4} alt="Ring sr4" class="thumbnail" /></Link>
+        </div>
+        <div className="col-6 col-md-4 col-lg-3">
+          <Link to="/page-sr2/"><img src={ringImagesr2} alt="Ring sr2" class="thumbnail" /></Link>
+        </div>
+        <div className="col-6 col-md-4 col-lg-3">
+          <Link to="/page-sr3/"><img src={ringImagesr3} alt="Ring sr3" class="thumbnail" /></Link>
+        </div>
+        <div className="col-6 col-md-4 col-lg-3">
+          <Link to="/page-sr1/"><img src={ringImagesr1} alt="Ring sr1" class="thumbnail" /></Link>
+        </div>
+      </div>
+      <div className="row">
+        <div className="col-6 col-md-4 col-lg-3">
+          <Link to="/page-sr5/"><img src={ringImagesr5} alt="Ring sr5" class="thumbnail" /></Link>
+        </div>
+        <div className="col-6 col-md-4 col-lg-3">
+          <Link to="/page-sr6/"><img src={ringImagesr6} alt="Ring sr6" class="thumbnail" /></Link>
+        </div>
+        <div className="col-6 col-md-4 col-lg-3">
+          <Link to="/page-sr7/"><img src={ringImagesr7} alt="Ring sr7" class="thumbnail" /></Link>
+        </div>
+
+      </div>
+
     </div>
-    <div className="col-6 col-md-4 col-lg-3">
-    <Link to="/page-8/"><img src={ringImagesr2} alt="Ring sr2" class="thumbnail"/></Link>
-    </div>
-    <div className="col-6 col-md-4 col-lg-3">
-    <Link to="/page-8/"><img src={ringImagesr3} alt="Ring sr3" class="thumbnail"/></Link>
-    </div>
-    <div className="col-6 col-md-4 col-lg-3">
-    <Link to="/page-8/"><img src={ringImagesr1} alt="Ring sr1" class="thumbnail"/></Link>
-    </div>
-  </div>
-  <div className="row">
-    <div className="col-6 col-md-4 col-lg-3">
-    <Link to="/page-8/"><img src={ringImagesr5} alt="Ring sr5" class="thumbnail"/></Link>
-    </div>
-    <div className="col-6 col-md-4 col-lg-3">
-    <Link to="/page-8/"><img src={ringImagesr6} alt="Ring sr6" class="thumbnail"/></Link>
-    </div>
-    <div className="col-6 col-md-4 col-lg-3">
-    <Link to="/page-8/"><img src={ringImagesr7} alt="Ring sr7" class="thumbnail"/></Link>
-    </div>
-   
-  </div>
-  
-</div>
-    
+
 
 
 

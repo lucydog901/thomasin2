@@ -2,17 +2,11 @@ import React from "react";
 import Slider from "react-slick";
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
-import ringImage119 from "../images/everyday/119.jpg"
-import ringImage119a from "../images/everyday/119a.jpg"
-import ringImage119b from "../images/everyday/119b.jpg"
-// import { Link } from 'gatsby-plugin-modal-routing'
-
-import { Link } from "gatsby"
-// import { navigate } from 'gatsby'
-
-
-// import Layout from "../components/layout"
-
+import ringImagesr7 from "../images/sculpture/sr7.jpg"
+import ringImagesr7a from "../images/sculpture/sr7a.jpg"
+import ringImagesr7b from "../images/sculpture/sr7b.jpg"
+import ringImagesr7c from "../images/sculpture/sr7b.jpg"
+import { Link } from 'gatsby-plugin-modal-routing'
 
 
 export default function SimpleSlider() {
@@ -32,27 +26,32 @@ export default function SimpleSlider() {
       <Slider {...settings}>
       
         <div class="adimg ad1img">
-        <img src={ringImage119} alt="Ring 119" />
+        <img src={ringImagesr7} alt="Ring sr7" />
         </div>
         <div class="adimg ad2img">
-        <img src={ringImage119a} alt="Ring 119a" />
+        <img src={ringImagesr7a} alt="Ring sr7a" />
         </div>
         <div class="adimg ad3img">
-        <img src={ringImage119b} alt="Ring 119b" />
+        <img src={ringImagesr7b} alt="Ring sr7b" />
         </div>
+        <div class="adimg ad3img">
+        <img src={ringImagesr7c} alt="Ring sr7c" />
+        </div>
+      
+      
+      
      
       </Slider>
     
       
 <div className="card-body"><br></br>
-  <p className="card-text">Sterling silver and prong set spessartine garnet.</p>
-  <Link to="/page-365" state={{
-    modal: true
-  }}class="btn btn-secondary btn-block">Next Ring</Link>
-  <Link to="/everyday" state={{
+  <p className="card-text">
+Ring and earrings that combine to make a sculpture, made of sterling silver and copper.</p>
+  <Link to="/page-sr4" asModal class="btn btn-secondary btn-block">Next Ring</Link>
+  <Link to="/sculpture" state={{
     noScroll: true
   }} class="btn btn-secondary btn-block">Back to Gallery</Link>
-  
+ 
 </div>
 
 </div>
@@ -61,3 +60,4 @@ export default function SimpleSlider() {
 
     );
   }
+
