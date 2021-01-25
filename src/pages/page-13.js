@@ -2,10 +2,10 @@ import React from "react";
 import Slider from "react-slick";
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
-import ringImage8 from "../images/unusual/8.jpg"
-import ringImage8a from "../images/unusual/8a.jpg"
-import ringImage8b from "../images/unusual/8b.jpg"
-import ringImage8c from "../images/unusual/8c.jpg"
+import ringImage13 from "../images/unusual/13.jpg"
+import ringImage13a from "../images/unusual/13a.jpg"
+import ringImage13b from "../images/unusual/13b.jpg"
+
 
 
 import { Link } from 'gatsby-plugin-modal-routing'
@@ -28,16 +28,13 @@ export default function SimpleSlider() {
       <Slider {...settings}>
       
         <div class="adimg ad1img">
-        <img src={ringImage8} alt="Ring 8" />
+        <img src={ringImage13} alt="Ring 13" />
         </div>
         <div class="adimg ad1img">
-        <img src={ringImage8a} alt="Ring 8a" />
+        <img src={ringImage13a} alt="Ring 13a" />
         </div>
         <div class="adimg ad1img">
-        <img src={ringImage8b} alt="Ring 8b" />
-        </div>
-        <div class="adimg ad1img">
-        <img src={ringImage8c} alt="Ring 8c" />
+        <img src={ringImage13b} alt="Ring 13b" />
         </div>
    
      
@@ -45,8 +42,8 @@ export default function SimpleSlider() {
     
       
 <div className="card-body"><br></br>
-  <p className="card-text">A dangerous ring made from copper and an electrical plug adapter. Copper wires have been soldered to the inside of the bezel and inserted into the adapter.</p>
-  <Link to="/page-9" asModal class="btn btn-secondary btn-block">Next Ring</Link>
+  <p className="card-text">Made on January 13, 2010, the day after Haiti was devastated by a massive earthquake. This ring is made of sterling silver and features the National Palace, which was badly damaged. The artist organized an online auction of this ring and rings made by others participating in the Ring a Day Challenge. $1600 was raised and all proceeds went to a charity to rebuild Haiti.</p>
+  <Link to="/page-31" asModal class="btn btn-secondary btn-block">Next Ring</Link>
   <Link to="/unusual" state={{
     noScroll: true
   }} class="btn btn-secondary btn-block">Back to Gallery</Link>

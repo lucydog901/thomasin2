@@ -74,7 +74,7 @@ const IndexPage = () => (
           <Link to="/page-264/"><img src={ringImage264} alt="Ring 264" class="thumbnail" /></Link>
         </div>
         <div className="col-6 col-md-4 col-lg-3">
-          <Link to="/page-8/"><img src={ringImage286} alt="Ring 286" class="thumbnail" /></Link>
+          <Link to="/page-286/"><img src={ringImage286} alt="Ring 286" class="thumbnail" /></Link>
         </div>
       </div>
       <div className="row">
@@ -82,25 +82,25 @@ const IndexPage = () => (
           <Link to="/page-8/"><img src={ringImage8} alt="Ring 8" class="thumbnail" /></Link>
         </div>
         <div className="col-6 col-md-4 col-lg-3">
-          <Link to="/page-8/"><img src={ringImage9} alt="Ring 9" class="thumbnail" /></Link>
+          <Link to="/page-9/"><img src={ringImage9} alt="Ring 9" class="thumbnail" /></Link>
         </div>
         <div className="col-6 col-md-4 col-lg-3">
-          <Link to="/page-8/"><img src={ringImage13} alt="Ring 13" class="thumbnail" /></Link>
+          <Link to="/page-13/"><img src={ringImage13} alt="Ring 13" class="thumbnail" /></Link>
         </div>
         <div className="col-6 col-md-4 col-lg-3">
-          <Link to="/page-8/"><img src={ringImage31} alt="Ring 31" class="thumbnail" /></Link>
+          <Link to="/page-31/"><img src={ringImage31} alt="Ring 31" class="thumbnail" /></Link>
         </div>
 
       </div>
       <div className="row">
         <div className="col-6 col-md-4 col-lg-3">
-          <Link to="/page-8/"><img src={ringImage300} alt="Ring 300" class="thumbnail" /></Link>
+          <Link to="/page-300/"><img src={ringImage300} alt="Ring 300" class="thumbnail" /></Link>
         </div>
         <div className="col-6 col-md-4 col-lg-3">
-          <Link to="/page-8/"><img src={ringImage304} alt="Ring 304" class="thumbnail" /></Link>
+          <Link to="/page-304/"><img src={ringImage304} alt="Ring 304" class="thumbnail" /></Link>
         </div>
         <div className="col-6 col-md-4 col-lg-3">
-          <Link to="/page-8/"><img src={ringImage221} alt="Ring 221" class="thumbnail" /></Link>
+          <Link to="/page-221/"><img src={ringImage221} alt="Ring 221" class="thumbnail" /></Link>
         </div>
 
       </div>

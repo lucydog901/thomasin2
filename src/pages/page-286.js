@@ -2,10 +2,10 @@ import React from "react";
 import Slider from "react-slick";
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
-import ringImage8 from "../images/unusual/8.jpg"
-import ringImage8a from "../images/unusual/8a.jpg"
-import ringImage8b from "../images/unusual/8b.jpg"
-import ringImage8c from "../images/unusual/8c.jpg"
+import ringImage286 from "../images/unusual/286.jpg"
+import ringImage286a from "../images/unusual/286a.jpg"
+import ringImage286b from "../images/unusual/286b.jpg"
+import ringImage286c from "../images/unusual/286c.jpg"
 
 
 import { Link } from 'gatsby-plugin-modal-routing'
@@ -28,16 +28,16 @@ export default function SimpleSlider() {
       <Slider {...settings}>
       
         <div class="adimg ad1img">
-        <img src={ringImage8} alt="Ring 8" />
+        <img src={ringImage286} alt="Ring 286" />
         </div>
         <div class="adimg ad1img">
-        <img src={ringImage8a} alt="Ring 8a" />
+        <img src={ringImage286c} alt="Ring 286c" />
         </div>
         <div class="adimg ad1img">
-        <img src={ringImage8b} alt="Ring 8b" />
+        <img src={ringImage286b} alt="Ring 286b" />
         </div>
         <div class="adimg ad1img">
-        <img src={ringImage8c} alt="Ring 8c" />
+        <img src={ringImage286a} alt="Ring 286a" />
         </div>
    
      
@@ -45,8 +45,8 @@ export default function SimpleSlider() {
     
       
 <div className="card-body"><br></br>
-  <p className="card-text">A dangerous ring made from copper and an electrical plug adapter. Copper wires have been soldered to the inside of the bezel and inserted into the adapter.</p>
-  <Link to="/page-9" asModal class="btn btn-secondary btn-block">Next Ring</Link>
+  <p className="card-text">Chilean Miner ring with working winch, made of sterling silver. Created on the day of the successful rescue of 33 miners in Chile who had been trapped underground for 69 days.</p>
+  <Link to="/page-8" asModal class="btn btn-secondary btn-block">Next Ring</Link>
   <Link to="/unusual" state={{
     noScroll: true
   }} class="btn btn-secondary btn-block">Back to Gallery</Link>
