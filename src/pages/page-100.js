@@ -2,9 +2,10 @@ import React from "react";
 import Slider from "react-slick";
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
-import ringImage24 from "../images/unusual/24.jpg"
-import ringImage24a from "../images/unusual/24a.jpg"
-import ringImage24b from "../images/unusual/24b.jpg"
+import ringImage100 from "../images/unusual/100.jpg"
+import ringImage100a from "../images/unusual/100a.jpg"
+import ringImage100b from "../images/unusual/100b.jpg"
+
 
 import { Link } from 'gatsby-plugin-modal-routing'
 
@@ -27,22 +28,24 @@ export default function SimpleSlider() {
       <Slider {...settings}>
       
         <div class="adimg ad1img">
-        <img src={ringImage24} alt="Ring 24" />
+        <img src={ringImage100} alt="Ring 100" />
         </div>
         <div class="adimg ad2img">
-        <img src={ringImage24a} alt="Ring 24a" />
+        <img src={ringImage100a} alt="Ring 100a" />
         </div>
         <div class="adimg ad2img">
-        <img src={ringImage24b} alt="Ring 24b" />
+        <img src={ringImage100b} alt="Ring 100b" />
         </div>
+     
+     
    
      
       </Slider>
     
       
 <div className="card-body"><br></br>
-  <p className="card-text">Kite ring made from nickel silver, copper, and brass.</p>
-  <Link to="/page-35" asModal class="btn btn-secondary btn-block">Next Ring</Link>
+  <p className="card-text">"Hectorad", made for the Ring a Day challenge on April 10, 2010 - the 100th day of the year. Pierced silver sheet.</p>
+  <Link to="/page-106" asModal class="btn btn-secondary btn-block">Next Ring</Link>
   <Link to="/unusual" state={{
     noScroll: true
   }} class="btn btn-secondary btn-block">Back to Gallery</Link>

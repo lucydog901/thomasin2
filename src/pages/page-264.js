@@ -2,12 +2,13 @@ import React from "react";
 import Slider from "react-slick";
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
-import ringImage24 from "../images/unusual/24.jpg"
-import ringImage24a from "../images/unusual/24a.jpg"
-import ringImage24b from "../images/unusual/24b.jpg"
+import ringImage264 from "../images/unusual/264.jpg"
+import ringImage264a from "../images/unusual/264a.jpg"
+import ringImage264b from "../images/unusual/264b.jpg"
+import ringImage264c from "../images/unusual/264c.jpg"
+
 
 import { Link } from 'gatsby-plugin-modal-routing'
-
 
 
 export default function SimpleSlider() {
@@ -27,13 +28,16 @@ export default function SimpleSlider() {
       <Slider {...settings}>
       
         <div class="adimg ad1img">
-        <img src={ringImage24} alt="Ring 24" />
+        <img src={ringImage264} alt="Ring 264" />
         </div>
-        <div class="adimg ad2img">
-        <img src={ringImage24a} alt="Ring 24a" />
+        <div class="adimg ad1img">
+        <img src={ringImage264a} alt="Ring 264a" />
         </div>
-        <div class="adimg ad2img">
-        <img src={ringImage24b} alt="Ring 24b" />
+        <div class="adimg ad1img">
+        <img src={ringImage264b} alt="Ring 264b" />
+        </div>
+        <div class="adimg ad1img">
+        <img src={ringImage264c} alt="Ring 264c" />
         </div>
    
      
@@ -41,8 +45,8 @@ export default function SimpleSlider() {
     
       
 <div className="card-body"><br></br>
-  <p className="card-text">Kite ring made from nickel silver, copper, and brass.</p>
-  <Link to="/page-35" asModal class="btn btn-secondary btn-block">Next Ring</Link>
+  <p className="card-text">Peace ring made from pierced and formed copper sheet.</p>
+  <Link to="/page-286" asModal class="btn btn-secondary btn-block">Next Ring</Link>
   <Link to="/unusual" state={{
     noScroll: true
   }} class="btn btn-secondary btn-block">Back to Gallery</Link>

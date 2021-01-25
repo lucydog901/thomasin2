@@ -2,9 +2,8 @@ import React from "react";
 import Slider from "react-slick";
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
-import ringImage24 from "../images/unusual/24.jpg"
-import ringImage24a from "../images/unusual/24a.jpg"
-import ringImage24b from "../images/unusual/24b.jpg"
+import ringImage53 from "../images/unusual/53.jpg"
+import ringImage53a from "../images/unusual/53a.jpg"
 
 import { Link } from 'gatsby-plugin-modal-routing'
 
@@ -27,22 +26,20 @@ export default function SimpleSlider() {
       <Slider {...settings}>
       
         <div class="adimg ad1img">
-        <img src={ringImage24} alt="Ring 24" />
+        <img src={ringImage53} alt="Ring 53" />
         </div>
         <div class="adimg ad2img">
-        <img src={ringImage24a} alt="Ring 24a" />
+        <img src={ringImage53a} alt="Ring 53a" />
         </div>
-        <div class="adimg ad2img">
-        <img src={ringImage24b} alt="Ring 24b" />
-        </div>
+     
    
      
       </Slider>
     
       
 <div className="card-body"><br></br>
-  <p className="card-text">Kite ring made from nickel silver, copper, and brass.</p>
-  <Link to="/page-35" asModal class="btn btn-secondary btn-block">Next Ring</Link>
+  <p className="card-text">Malcom X ring made on the 45th anniversary of his death. Made from acid etched shibuichi and pierced sterling sheet.</p>
+  <Link to="/page-76" asModal class="btn btn-secondary btn-block">Next Ring</Link>
   <Link to="/unusual" state={{
     noScroll: true
   }} class="btn btn-secondary btn-block">Back to Gallery</Link>

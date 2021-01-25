@@ -2,9 +2,10 @@ import React from "react";
 import Slider from "react-slick";
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
-import ringImage24 from "../images/unusual/24.jpg"
-import ringImage24a from "../images/unusual/24a.jpg"
-import ringImage24b from "../images/unusual/24b.jpg"
+import ringImage83 from "../images/unusual/83.jpg"
+import ringImage83a from "../images/unusual/83a.jpg"
+import ringImage83b from "../images/unusual/83b.jpg"
+import ringImage83c from "../images/unusual/83c.jpg"
 
 import { Link } from 'gatsby-plugin-modal-routing'
 
@@ -27,22 +28,26 @@ export default function SimpleSlider() {
       <Slider {...settings}>
       
         <div class="adimg ad1img">
-        <img src={ringImage24} alt="Ring 24" />
+        <img src={ringImage83} alt="Ring 83" />
         </div>
         <div class="adimg ad2img">
-        <img src={ringImage24a} alt="Ring 24a" />
+        <img src={ringImage83a} alt="Ring 83a" />
         </div>
         <div class="adimg ad2img">
-        <img src={ringImage24b} alt="Ring 24b" />
+        <img src={ringImage83b} alt="Ring 83b" />
         </div>
+        <div class="adimg ad2img">
+        <img src={ringImage83c} alt="Ring 83c" />
+        </div>
+     
    
      
       </Slider>
     
       
 <div className="card-body"><br></br>
-  <p className="card-text">Kite ring made from nickel silver, copper, and brass.</p>
-  <Link to="/page-35" asModal class="btn btn-secondary btn-block">Next Ring</Link>
+  <p className="card-text">Oil spill ring, made the day of the Deepwater Horizon oil spill, April 20, 2010. Sterling silver and copper. </p>
+  <Link to="/page-100" asModal class="btn btn-secondary btn-block">Next Ring</Link>
   <Link to="/unusual" state={{
     noScroll: true
   }} class="btn btn-secondary btn-block">Back to Gallery</Link>
