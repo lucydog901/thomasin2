@@ -5,6 +5,7 @@ import "slick-carousel/slick/slick-theme.css";
 import ringImage79 from "../images/everyday/79.jpg"
 import ringImage79a from "../images/everyday/79a.jpg"
 import ringImage79b from "../images/everyday/79b.jpg"
+import { Link } from 'gatsby-plugin-modal-routing'
 
 import Layout from "../components/layout"
 
@@ -40,8 +41,11 @@ export default function SimpleSlider() {
       
 <div className="card-body"><br></br>
   <p className="card-text">Sterling silver shadow box with etched copper and freshwater pearl.</p>
-  <a href="/everyday" class="btn btn-secondary btn-block">Back to Gallery</a>
   <a href="/everyday" class="btn btn-secondary btn-block">Next Ring</a>
+  <Link to="/everyday" state={{
+    noScroll: true
+  }} class="btn btn-secondary btn-block">Back to Gallery</Link>
+  
 </div>
 </div>
 </div>
