@@ -1,8 +1,26 @@
 module.exports = {
   siteMetadata: {
-    title: `Thomasin Durgin - Portfolio`,
-    description: `Rings made by Thomasin Durgin`,
+    title: `Thomasin Durgin - Rings`,
+    description: `Handwrought Metal Rings by Thomasin Durgin`,
     author: `@gatsbyjs`,
+    menuLinks: [
+      {
+        name: 'home',
+        link: '/'
+      },
+      {
+        name: 'everyday',
+        link: '/everyday'
+      },
+      {
+        name: 'sculpture',
+        link: '/sculpture'
+      },
+      {
+        name: 'unusual',
+        link: '/unusual'
+      }
+    ]
   },
   plugins: [
     `gatsby-plugin-react-helmet`,
