@@ -28,10 +28,12 @@ import SEO from "../components/seo"
 const IndexPage = () => (
   <Layout>
     <SEO title="Home" />
-    
-
-
     <div className="container">
+    <div className="row">
+    <div className="col">
+    <h4 align="center">Every Day Rings</h4><br></br>
+    </div>
+    </div>
   <div className="row">
     <div className="col-6 col-md-4 col-lg-3">
     <Link to="/page-119/" asModal><img src={ringImage119} alt="Ring 119" class="thumbnail"/></Link>
