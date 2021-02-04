@@ -1,7 +1,7 @@
 import { Link } from "gatsby"
 import PropTypes from "prop-types"
 import React from "react"
-import ringImage79 from "../images/everyday/79.jpg"
+//import ringImage79 from "../images/everyday/79.jpg"
 
 const Header = ({ siteTitle, menuLinks }) => (
   <header
@@ -10,6 +10,7 @@ const Header = ({ siteTitle, menuLinks }) => (
       marginBottom: `1.45rem`,
     }}
   >
+   <div className="containerbg">
   <div className="row"
       style={{
         margin: `0 auto`,
@@ -18,7 +19,7 @@ const Header = ({ siteTitle, menuLinks }) => (
       }}
     >
     <div className="col">
-      <h3 style={{ margin: 2 }}> T. Durgin: Rings
+      <h3 style={{ margin: 2 }}> 
         <Link
           to="/"
           style={{
@@ -26,7 +27,7 @@ const Header = ({ siteTitle, menuLinks }) => (
             textDecoration: `none`,
           }}
         >
-     
+     T. Durgin: Rings
         </Link>
       </h3>
       </div>
@@ -49,6 +50,7 @@ const Header = ({ siteTitle, menuLinks }) => (
           </ul>
         </nav>
       </div>
+   </div>
    </div>
   </header>
 )
