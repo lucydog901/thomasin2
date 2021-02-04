@@ -44,7 +44,7 @@ const Layout = ({ children }) => {
         <footer style={{
           marginTop: `2rem`
         }}>
-          <p align = "center"> © Thomasin Durgin 2020</p>
+          <h7 align="center"> © Thomasin Durgin 2020</h7>
         </footer>
       </div>
     </>

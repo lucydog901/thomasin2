@@ -1,19 +1,19 @@
 import { Link } from "gatsby"
 import PropTypes from "prop-types"
 import React from "react"
+import ringImage79 from "../images/everyday/79.jpg"
 
 const Header = ({ siteTitle, menuLinks }) => (
   <header
     style={{
       background: `#6eb8af`,
       marginBottom: `1.45rem`,
-      backgroundImage: `/images/header.png`,
     }}
   >
   <div className="row"
       style={{
         margin: `0 auto`,
-        maxWidth: 960,
+        maxWidth: 1200,
         padding: `1.45rem 1.0875rem`,
       }}
     >

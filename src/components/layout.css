@@ -3,6 +3,7 @@
   color: gray!important;
 }
 
+
 .ReactModal__Body--open {
   overflow-y: hidden;
   position: fixed;
@@ -10,6 +11,13 @@
   height: 100%;
 }
 
+footer{
+  display: table;
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+}
+﻿
 
 .thumbnail {
   width:200px;
@@ -121,6 +129,16 @@ h1 {
   text-rendering: optimizeLegibility;
   font-size: 2.25rem;
   line-height: 1.1;
+}
+
+h7 {
+  font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
+  Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
+  font-weight: lighter;
+  text-rendering: optimizeLegibility;
+  font-size: .9rem;
+  line-height: 1.1;
+  text-align: center;
 }
 mark {
   background-color: #ff0;
@@ -361,13 +379,13 @@ h6 {
   padding-right: 0;
   padding-top: 0;
   margin-bottom: 1.45rem;
-  color: inherit;
+  color: black;
   font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
     Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
-  font-weight: bold;
   text-rendering: optimizeLegibility;
-  font-size: 0.78405rem;
+  font-size: 8px;
   line-height: 1.1;
+  font-weight: lighter;
 }
 hgroup {
   margin-left: 0;

@@ -4,12 +4,9 @@ module.exports = {
     description: `Handwrought Metal Rings by Thomasin Durgin`,
     author: `@gatsbyjs`,
     menuLinks: [
+    
       {
-        name: 'home',
-        link: '/'
-      },
-      {
-        name: 'everyday',
+        name: 'every day',
         link: '/everyday'
       },
       {
@@ -23,7 +20,11 @@ module.exports = {
       {
         name: 'about',
         link: '/about'
-      }
+      },
+      {
+        name: 'coding',
+        link: '/splash'
+      },
     ]
   },
   plugins: [
