@@ -6,11 +6,9 @@ import ringImage92 from "../images/everyday/92.jpg"
 import ringImage264 from "../images/unusual/264.jpg"
 import ringImagesr1a from "../images/sculpture/sr1a.jpg"
 
-
-
-
 import Layout from "../components/layout"
 import SEO from "../components/seo"
+
 
 const IndexPage = () => (
   <Layout>

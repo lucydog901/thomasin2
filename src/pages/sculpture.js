@@ -15,9 +15,9 @@ import Layout from "../components/layout"
 import SEO from "../components/seo"
 import { Link } from "gatsby"
 
-const IndexPage = () => (
+const SculpturePage = () => (
   <Layout>
-    <SEO title="Home" />
+    <SEO title="Rings as Sculpture" />
 
     <div className="container">
     <div className="row">
@@ -62,4 +62,4 @@ const IndexPage = () => (
   </Layout>
 )
 
-export default IndexPage
+export default SculpturePage

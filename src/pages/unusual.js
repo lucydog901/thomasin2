@@ -26,9 +26,9 @@ import ringImage304 from "../images/unusual/304.jpg"
 import Layout from "../components/layout"
 import SEO from "../components/seo"
 
-const IndexPage = () => (
+const UnusualPage = () => (
   <Layout>
-    <SEO title="Home" />
+    <SEO title="Unusual Rings" />
 
     <div className="container">
     <div className="row">
@@ -117,4 +117,4 @@ const IndexPage = () => (
   </Layout>
 )
 
-export default IndexPage
+export default UnusualPage

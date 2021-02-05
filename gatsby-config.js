@@ -39,6 +39,7 @@ module.exports = {
     `gatsby-plugin-modal-routing`,
     `gatsby-transformer-sharp`,
     `gatsby-plugin-sharp`,
+    `gatsby-plugin-styled-components`,
     {
       resolve: `gatsby-plugin-manifest`,
       options: {

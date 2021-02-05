@@ -25,9 +25,9 @@ import Layout from "../components/layout"
 import SEO from "../components/seo"
 // import { Link } from "gatsby"
 
-const IndexPage = () => (
+const EverydayPage = () => (
   <Layout>
-    <SEO title="Home" />
+    <SEO title="Every Day Rings" />
     <div className="container">
     <div className="row">
     <div className="col">
@@ -100,4 +100,4 @@ const IndexPage = () => (
   </Layout>
 )
 
-export default IndexPage
+export default EverydayPage
