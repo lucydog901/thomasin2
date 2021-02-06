@@ -29,23 +29,23 @@ import Layout from "../components/layout"
 const EverydayPage = () => (
   <Layout>
     <div class="masonry">
-      <div class="item"><Link to="/page-119/" asModal><img src={ringImage119} alt="Ring 119" /></Link></div>
-      <div class="item"><Link to="/page-233/" asModal><img src={ringImage233} alt="Ring 233" /></Link></div>
-      <div class="item"><Link to="/page-92/" asModal><img src={ringImage92} alt="Ring 92" /></Link></div>
-      <div class="item"><Link to="/page-107/" asModal><img src={ringImage107} alt="Ring 107"></img></Link></div>
-      <div class="item"><Link to="/page-111/" asModal><img src={ringImage111} alt="Ring 111" /></Link></div>
-      <div class="item"><Link to="/page-79/" asModal><img src={ringImage79} alt="Ring 79" /></Link>
+      <div class="item"><Link to="/page-119/" asModal><img src={ringImage119} alt="Ring 119" class="thumbnail"/></Link></div>
+      <div class="item"><Link to="/page-233/" asModal><img src={ringImage233} alt="Ring 233" class="thumbnail"/></Link></div>
+      <div class="item"><Link to="/page-92/" asModal><img src={ringImage92} alt="Ring 92" class="thumbnail"/></Link></div>
+      <div class="item"><Link to="/page-107/" asModal><img src={ringImage107} alt="Ring 107"class="thumbnail"></img></Link></div>
+      <div class="item"><Link to="/page-111/" asModal><img src={ringImage111} alt="Ring 111" class="thumbnail"/></Link></div>
+      <div class="item"><Link to="/page-79/" asModal><img src={ringImage79} alt="Ring 79" class="thumbnail"/></Link>
       </div>
-      <div class="item">  <Link to="/page-365/" asModal><img src={ringImage365} alt="Ring 365" /></Link></div>
-      <div class="item"> <Link to="/page-r9/" asModal><img src={ringImager9} alt="Ring r9" /></Link></div>
-      <div class="item">  <Link to="/page-r2/" asModal><img src={ringImager2} alt="Ring r2" /></Link></div>
-      <div class="item">  <Link to="/page-r3/" asModal><img src={ringImager3} alt="Ring r3" /></Link></div>
-      <div class="item">  <Link to="/page-r4/" asModal><img src={ringImager4} alt="Ring r4" /></Link></div>
-      <div class="item"> <Link to="/page-r5/" asModal><img src={ringImager5} alt="Ring r5" /></Link></div>
-      <div class="item">  <Link to="/page-r6/" asModal><img src={ringImager6} alt="Ring r6"/></Link></div>
-      <div class="item">  <Link to="/page-r7/" asModal><img src={ringImager7} alt="Ring r7"/></Link></div>
-      <div class="item">  <Link to="/page-r8/" asModal><img src={ringImager8} alt="Ring r8"/></Link></div>
-      <div class="item">  <Link to="/page-285/" asModal><img src={ringImage285} alt="Ring 285"/></Link></div>
+      <div class="item">  <Link to="/page-365/" asModal><img src={ringImage365} alt="Ring 365" class="thumbnail"/></Link></div>
+      <div class="item"> <Link to="/page-r9/" asModal><img src={ringImager9} alt="Ring r9" class="thumbnail"/></Link></div>
+      <div class="item">  <Link to="/page-r2/" asModal><img src={ringImager2} alt="Ring r2" class="thumbnail"/></Link></div>
+      <div class="item">  <Link to="/page-r3/" asModal><img src={ringImager3} alt="Ring r3" class="thumbnail"/></Link></div>
+      <div class="item">  <Link to="/page-r4/" asModal><img src={ringImager4} alt="Ring r4" class="thumbnail"/></Link></div>
+      <div class="item"> <Link to="/page-r5/" asModal><img src={ringImager5} alt="Ring r5" class="thumbnail"/></Link></div>
+      <div class="item">  <Link to="/page-r6/" asModal><img src={ringImager6} alt="Ring r6" class="thumbnail"/></Link></div>
+      <div class="item">  <Link to="/page-r7/" asModal><img src={ringImager7} alt="Ring r7" class="thumbnail"/></Link></div>
+      <div class="item">  <Link to="/page-r8/" asModal><img src={ringImager8} alt="Ring r8" class="thumbnail"/></Link></div>
+      <div class="item">  <Link to="/page-285/" asModal><img src={ringImage285} alt="Ring 285" class="thumbnail"/></Link></div>
 
     </div>
 

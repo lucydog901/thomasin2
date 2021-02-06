@@ -36,6 +36,7 @@ footer{
 
 .adimg img{
   margin: 0 auto;
+  
 }
 
 html {
@@ -544,6 +545,7 @@ th {
 }
 li {
   margin-bottom: calc(1.45rem / 2);
+  white-space: nowrap;
 }
 ol li {
   padding-left: 0;
@@ -651,10 +653,16 @@ pre tt:after {
 }
 
 .thumbnail {
-  width:200px;
-  height:200px;
-  object-fit:cover;
   border-radius:10%; 
+}
+
+.thumbnail2 {
+
+  width: 200px;
+  height: 200px;
+  object-fit: cover;
+  object-fit: cover;
+  border-radius: 10%;
 }
 
 

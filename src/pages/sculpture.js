@@ -20,13 +20,13 @@ const SculpturePage = () => (
     <SEO title="Rings as Sculpture" />
 
     <div class="masonry">
-      <div class="item"><Link to="/page-sr1/" asModal><img src={ringImagesr1} alt="Ring sr1" /></Link></div>
-      <div class="item"><Link to="/page-sr2/" asModal><img src={ringImagesr2} alt="Ring sr2" /></Link></div>
-      <div class="item"><Link to="/page-sr3/" asModal><img src={ringImagesr3} alt="Ring sr3" /></Link></div>
-      <div class="item"><Link to="/page-sr4/" asModal><img src={ringImagesr4} alt="Ring sr4" /></Link></div>
-      <div class="item"><Link to="/page-sr5/" asModal><img src={ringImagesr5} alt="Ring sr5" /></Link></div>
-      <div class="item"><Link to="/page-sr6/" asModal><img src={ringImagesr6} alt="Ring sr6" /></Link></div>
-      <div class="item"><Link to="/page-sr7/" asModal><img src={ringImagesr7} alt="Ring sr7" /></Link></div>
+      <div class="item"><Link to="/page-sr1/" asModal><img src={ringImagesr1} alt="Ring sr1" class="thumbnail"/></Link></div>
+      <div class="item"><Link to="/page-sr2/" asModal><img src={ringImagesr2} alt="Ring sr2" class="thumbnail"/></Link></div>
+      <div class="item"><Link to="/page-sr3/" asModal><img src={ringImagesr3} alt="Ring sr3" class="thumbnail"/></Link></div>
+      <div class="item"><Link to="/page-sr4/" asModal><img src={ringImagesr4} alt="Ring sr4" class="thumbnail"/></Link></div>
+      <div class="item"><Link to="/page-sr5/" asModal><img src={ringImagesr5} alt="Ring sr5" class="thumbnail"/></Link></div>
+      <div class="item"><Link to="/page-sr6/" asModal><img src={ringImagesr6} alt="Ring sr6" class="thumbnail"/></Link></div>
+      <div class="item"><Link to="/page-sr7/" asModal><img src={ringImagesr7} alt="Ring sr7" class="thumbnail"/></Link></div>
     
    
       </div>
