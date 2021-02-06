@@ -40,7 +40,6 @@ export default function SimpleSlider() {
       
 <div className="card-body"><br></br>
   <p className="card-text">Sterling silver shadow box with brass, etched shibuichi, and peridot cabochon.</p>
-  <Link to="/page-r4" asModal class="btn btn-secondary btn-block">Next Ring</Link>
   <Link to="/everyday" state={{
     noScroll: true
   }} class="btn btn-secondary btn-block">Back to Gallery</Link>

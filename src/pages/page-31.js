@@ -45,7 +45,6 @@ export default function SimpleSlider() {
   <p className="card-text">Crown of Thorns Ring, made from sterling silver and sharpened copper roofing nails.
 
 An interpretation of the cilice belt worn by some members of the Roman Catholic church as a constant reminder of Christ's sacrifice to the world. </p>
-  <Link to="/page-300" asModal class="btn btn-secondary btn-block">Next Ring</Link>
   <Link to="/unusual" state={{
     noScroll: true
   }} class="btn btn-secondary btn-block">Back to Gallery</Link>

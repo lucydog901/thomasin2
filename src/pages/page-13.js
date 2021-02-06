@@ -43,7 +43,6 @@ export default function SimpleSlider() {
       
 <div className="card-body"><br></br>
   <p className="card-text">Made on January 13, 2010, the day after Haiti was devastated by a massive earthquake. This ring is made of sterling silver and features the National Palace, which was badly damaged. The artist organized an online auction of this ring and rings made by others participating in the Ring a Day Challenge. $1600 was raised and all proceeds went to a charity to rebuild Haiti.</p>
-  <Link to="/page-31" asModal class="btn btn-secondary btn-block">Next Ring</Link>
   <Link to="/unusual" state={{
     noScroll: true
   }} class="btn btn-secondary btn-block">Back to Gallery</Link>

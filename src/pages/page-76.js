@@ -43,7 +43,6 @@ export default function SimpleSlider() {
       
 <div className="card-body"><br></br>
   <p className="card-text">Claddagh ring made on St. Patrick's Day, 2010. Sterling silver, etched copper, and brass.</p>
-  <Link to="/page-83" asModal class="btn btn-secondary btn-block">Next Ring</Link>
   <Link to="/unusual" state={{
     noScroll: true
   }} class="btn btn-secondary btn-block">Back to Gallery</Link>

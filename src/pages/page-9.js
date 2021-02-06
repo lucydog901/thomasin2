@@ -55,7 +55,6 @@ export default function SimpleSlider() {
       
 <div className="card-body"><br></br>
   <p className="card-text">The Bad Girl Button Ring. When the copper button is depressed a sharpened steel nail pokes the wearer in the finger. Made with sterling silver, nickel silver, copper, ballpoint pen spring, and a nail. </p>
-  <Link to="/page-13" asModal class="btn btn-secondary btn-block">Next Ring</Link>
   <Link to="/unusual" state={{
     noScroll: true
   }} class="btn btn-secondary btn-block">Back to Gallery</Link>

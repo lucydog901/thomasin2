@@ -46,7 +46,6 @@ export default function SimpleSlider() {
       
 <div className="card-body"><br></br>
   <p className="card-text">Chilean Miner ring with working winch, made of sterling silver. Created on the day of the successful rescue of 33 miners in Chile who had been trapped underground for 69 days.</p>
-  <Link to="/page-8" asModal class="btn btn-secondary btn-block">Next Ring</Link>
   <Link to="/unusual" state={{
     noScroll: true
   }} class="btn btn-secondary btn-block">Back to Gallery</Link>

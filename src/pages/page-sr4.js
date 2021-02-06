@@ -45,7 +45,6 @@ export default function SimpleSlider() {
       
 <div className="card-body"><br></br>
   <p className="card-text">A small table sculpture made of several jewelry components: a ring, a pair of earrings, a pendant, and a scatter pin. Made of sterling silver and freshwater pearls</p>
-  <Link to="/page-sr2" asModal class="btn btn-secondary btn-block">Next Ring</Link>
   <Link to="/sculpture" state={{
     noScroll: true
   }} class="btn btn-secondary btn-block">Back to Gallery</Link>

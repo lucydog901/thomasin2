@@ -49,7 +49,6 @@ export default function SimpleSlider() {
 <div className="card-body"><br></br>
   <p className="card-text">
 Sterling silver, brass ring, and clear quartz ring that stands on its own as a sculpture. </p>
-  <Link to="/page-sr5" asModal class="btn btn-secondary btn-block">Next Ring</Link>
   <Link to="/sculpture" state={{
     noScroll: true
   }} class="btn btn-secondary btn-block">Back to Gallery</Link>

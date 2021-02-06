@@ -47,7 +47,6 @@ export default function SimpleSlider() {
       
 <div className="card-body"><br></br>
   <p className="card-text">Oil spill ring, made the day of the Deepwater Horizon oil spill, April 20, 2010. Sterling silver and copper. </p>
-  <Link to="/page-100" asModal class="btn btn-secondary btn-block">Next Ring</Link>
   <Link to="/unusual" state={{
     noScroll: true
   }} class="btn btn-secondary btn-block">Back to Gallery</Link>

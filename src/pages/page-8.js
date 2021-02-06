@@ -46,7 +46,6 @@ export default function SimpleSlider() {
       
 <div className="card-body"><br></br>
   <p className="card-text">A dangerous ring made from copper and an electrical plug adapter. Copper wires have been soldered to the inside of the bezel and inserted into the adapter.</p>
-  <Link to="/page-9" asModal class="btn btn-secondary btn-block">Next Ring</Link>
   <Link to="/unusual" state={{
     noScroll: true
   }} class="btn btn-secondary btn-block">Back to Gallery</Link>

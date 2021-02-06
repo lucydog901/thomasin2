@@ -43,7 +43,6 @@ export default function SimpleSlider() {
       
 <div className="card-body"><br></br>
   <p className="card-text">Made on the 100th day of 2010 from pierced sterling silver sheet. "Ein­hundert" means "100" in German, but this ring has a typo and spells, "Eir­hundert". Proofreading matters.</p>
-  <Link to="/page-304" asModal class="btn btn-secondary btn-block">Next Ring</Link>
   <Link to="/unusual" state={{
     noScroll: true
   }} class="btn btn-secondary btn-block">Back to Gallery</Link>

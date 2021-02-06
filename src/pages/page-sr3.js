@@ -41,7 +41,6 @@ export default function SimpleSlider() {
 <div className="card-body"><br></br>
   <p className="card-text">
 A ring and scatter pin that combine to make a small sculpture. Made of sterling silver, Morrisonite jasper, and freswater pearl. </p>
-  <Link to="/page-sr1" asModal class="btn btn-secondary btn-block">Next Ring</Link>
   <Link to="/sculpture" state={{
     noScroll: true
   }} class="btn btn-secondary btn-block">Back to Gallery</Link>

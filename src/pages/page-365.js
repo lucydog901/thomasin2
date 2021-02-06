@@ -43,7 +43,6 @@ export default function SimpleSlider() {
       
 <div className="card-body"><br></br>
   <p className="card-text">Sterling silver and pink tourmaline with a square band.</p>
-  <Link to="/page-107" asModal class="btn btn-secondary btn-block">Next Ring</Link>
   <Link to="/everyday" state={{
     noScroll: true
   }} class="btn btn-secondary btn-block">Back to Gallery</Link>

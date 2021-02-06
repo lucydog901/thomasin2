@@ -41,7 +41,6 @@ export default function SimpleSlider() {
       
 <div className="card-body"><br></br>
   <p className="card-text">Sterling silver shadow box with etched copper and freshwater pearl.</p>
-  <a href="/everyday" class="btn btn-secondary btn-block">Next Ring</a>
   <Link to="/everyday" state={{
     noScroll: true
   }} class="btn btn-secondary btn-block">Back to Gallery</Link>

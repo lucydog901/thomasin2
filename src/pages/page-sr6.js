@@ -42,7 +42,6 @@ export default function SimpleSlider() {
 <div className="card-body"><br></br>
   <p className="card-text">
 Ring and earrings that combine to make a sculpture, made of sterling silver and copper.</p>
-  <Link to="/page-sr7" asModal class="btn btn-secondary btn-block">Next Ring</Link>
   <Link to="/sculpture" state={{
     noScroll: true
   }} class="btn btn-secondary btn-block">Back to Gallery</Link>

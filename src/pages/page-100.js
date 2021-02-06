@@ -45,7 +45,6 @@ export default function SimpleSlider() {
       
 <div className="card-body"><br></br>
   <p className="card-text">"Hectorad", made for the Ring a Day challenge on April 10, 2010 - the 100th day of the year. Pierced silver sheet.</p>
-  <Link to="/page-106" asModal class="btn btn-secondary btn-block">Next Ring</Link>
   <Link to="/unusual" state={{
     noScroll: true
   }} class="btn btn-secondary btn-block">Back to Gallery</Link>
