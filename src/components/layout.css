@@ -662,13 +662,13 @@ pre tt:after {
   column-count: 3;
   margin: 0;
   max-width: 1024px;
-  column-gap: 1;
+  column-gap: 1.5rem;
 }
 
 .item { /* Masonry bricks or child elements */
   background: #fff;
   padding: 0;
-  margin: 0 0 0;
+  margin: 0;
   width: 100%;
 }
 
