@@ -6,10 +6,7 @@ import ringImage79 from "../images/everyday/79.jpg"
 import ringImage79a from "../images/everyday/79a.jpg"
 import ringImage79b from "../images/everyday/79b.jpg"
 import { Link } from 'gatsby-plugin-modal-routing'
-// import { Link } from "gatsby"
-
-
-// import Layout from "../components/layout"
+import ConditionalLayout from "../components/ConditionalLayout"
 
 
 export default function SimpleSlider() {
@@ -23,7 +20,7 @@ export default function SimpleSlider() {
       
     };
     return (
-     
+      <ConditionalLayout>
       <div className="container">
       <div className="card">
       <Slider {...settings}>
@@ -51,7 +48,7 @@ export default function SimpleSlider() {
 </div>
 
 </div>
-
+</ConditionalLayout>
     );
   }
 

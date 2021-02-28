@@ -18,16 +18,12 @@ import ringImager5 from "../images/everyday/r5.jpg"
 import ringImager6 from "../images/everyday/r6.jpg"
 import ringImager7 from "../images/everyday/r7.jpg"
 import ringImager8 from "../images/everyday/r8.jpg"
-
-
-
 import Layout from "../components/layout"
-//import SEO from "../components/seo"
-// import { Link } from "gatsby"
 
 
 const EverydayPage = () => (
   <Layout>
+
     <div class="masonry">
       <div class="item"><Link to="/page-119/" asModal><img src={ringImage119} alt="Ring 119" class="thumbnail"/></Link></div>
       <div class="item"><Link to="/page-233/" asModal><img src={ringImage233} alt="Ring 233" class="thumbnail"/></Link></div>

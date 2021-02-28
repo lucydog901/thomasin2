@@ -5,7 +5,7 @@ import "slick-carousel/slick/slick-theme.css";
 import ringImage24 from "../images/unusual/24.jpg"
 import ringImage24a from "../images/unusual/24a.jpg"
 import ringImage24b from "../images/unusual/24b.jpg"
-
+import ConditionalLayout from "../components/ConditionalLayout"
 import { Link } from 'gatsby-plugin-modal-routing'
 
 
@@ -21,7 +21,7 @@ export default function SimpleSlider() {
       
     };
     return (
-     
+      <ConditionalLayout>
       <div className="container">
       <div className="card">
       <Slider {...settings}>
@@ -51,7 +51,7 @@ export default function SimpleSlider() {
 </div>
 
 </div>
-
+</ConditionalLayout>
     );
   }
 

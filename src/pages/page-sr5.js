@@ -6,7 +6,7 @@ import ringImagesr5 from "../images/sculpture/sr5.jpg"
 import ringImagesr5a from "../images/sculpture/sr5a.jpg"
 import ringImagesr5b from "../images/sculpture/sr5b.jpg"
 import { Link } from 'gatsby-plugin-modal-routing'
-
+import ConditionalLayout from "../components/ConditionalLayout"
 
 export default function SimpleSlider() {
     var settings = {
@@ -19,7 +19,7 @@ export default function SimpleSlider() {
       
     };
     return (
-     
+      <ConditionalLayout>
       <div className="container">
       <div className="card">
       <Slider {...settings}>
@@ -51,7 +51,7 @@ Ring and earrings that combine to make a sculpture, made of sterling silver and 
 </div>
 
 </div>
-
+</ConditionalLayout>
     );
   }
 

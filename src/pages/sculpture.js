@@ -1,6 +1,5 @@
 import React from "react"
 // import Image from "../components/image"
-
 import ringImagesr1 from "../images/sculpture/sr1.jpg"
 import ringImagesr2 from "../images/sculpture/sr2.jpg"
 import ringImagesr3 from "../images/sculpture/sr3.jpg"
@@ -8,12 +7,9 @@ import ringImagesr4 from "../images/sculpture/sr4.jpg"
 import ringImagesr5 from "../images/sculpture/sr5.jpg"
 import ringImagesr6 from "../images/sculpture/sr6.jpg"
 import ringImagesr7 from "../images/sculpture/sr7.jpg"
-
-
-
 import Layout from "../components/layout"
 import SEO from "../components/seo"
-import { Link } from "gatsby"
+import { Link } from 'gatsby-plugin-modal-routing'
 
 const SculpturePage = () => (
   <Layout>

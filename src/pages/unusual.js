@@ -1,5 +1,5 @@
 import React from "react"
-import { Link } from "gatsby"
+import { Link } from 'gatsby-plugin-modal-routing'
 // import Image from "../components/image"
 
 import ringImage8 from "../images/unusual/8.jpg"
