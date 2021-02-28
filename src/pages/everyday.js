@@ -31,7 +31,7 @@ const EverydayPage = () => (
         padding: `1.45rem 1.0875rem`,
       }}
     >
-        <h6 align="center">Hand fabricated metal and gemstone rings made from sterling silver, copper, and brass. </h6>
+        <p class="gallery">Hand fabricated metal and gemstone rings made from sterling silver, copper, and brass. </p>
       </div>
       <div class="masonry">
         <div class="item"><Link to="/page-119/" asModal><img src={ringImage119} alt="Ring 119" class="thumbnail" /></Link></div>

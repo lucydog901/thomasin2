@@ -22,7 +22,7 @@ const SculpturePage = () => (
           padding: `1.45rem 1.0875rem`,
         }}
       >
-        <h6 align="center">Rings that stand on their own as small sculptures when they are not being worn, some are combined with other jewelry pieces. </h6>
+        <p class="gallery">Rings that stand on their own as small sculptures when they are not worn, some are combined with other jewelry pieces. </p>
       </div>
 
       <div class="masonry">

@@ -33,7 +33,7 @@ const UnusualPage = () => (
           padding: `1.45rem 1.0875rem`,
         }}
       >
-        <h6 align="center">A selection of wearable but unusual rings, made from a variety of metals and other materials. </h6>
+        <p class="gallery">A selection of wearable but unusual rings, made from a variety of metals and other materials. </p>
       </div>
     <div class="masonry">
       <div class="item"><Link to="/page-8/" asModal><img src={ringImage8} alt="Ring 8" class="thumbnail"/></Link></div>
