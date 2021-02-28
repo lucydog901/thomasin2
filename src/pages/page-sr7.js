@@ -35,9 +35,7 @@ export default function SimpleSlider() {
             <div class="adimg ad3img">
               <img src={ringImagesr7b} alt="Ring sr7b" />
             </div>
-            <div class="adimg ad3img">
-              <img src={ringImagesr7c} alt="Ring sr7c" />
-            </div>
+         
 
 
 
