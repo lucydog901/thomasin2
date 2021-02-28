@@ -1,7 +1,5 @@
 import React from "react"
 import { Link } from 'gatsby-plugin-modal-routing'
-// import Image from "../components/image"
-
 import ringImage8 from "../images/unusual/8.jpg"
 import ringImage9 from "../images/unusual/9.jpg"
 import ringImage13 from "../images/unusual/13.jpg"
@@ -21,15 +19,22 @@ import ringImage264 from "../images/unusual/264.jpg"
 import ringImage286 from "../images/unusual/286.jpg"
 import ringImage300 from "../images/unusual/300.jpg"
 import ringImage304 from "../images/unusual/304.jpg"
-
-
 import Layout from "../components/layout"
 import SEO from "../components/seo"
 
 const UnusualPage = () => (
   <Layout>
     <SEO title="Unusual Rings" />
-
+    <div class="container">
+      <div className="row"
+        style={{
+          margin: `0 auto`,
+          maxWidth: 500,
+          padding: `1.45rem 1.0875rem`,
+        }}
+      >
+        <h6 align="center">A selection of wearable but unusual rings, made from a variety of metals and other materials. </h6>
+      </div>
     <div class="masonry">
       <div class="item"><Link to="/page-8/" asModal><img src={ringImage8} alt="Ring 8" class="thumbnail"/></Link></div>
       <div class="item"><Link to="/page-9/" asModal><img src={ringImage9} alt="Ring 9" class="thumbnail"/></Link></div>
@@ -54,6 +59,7 @@ const UnusualPage = () => (
 
 
 
+    </div>
     </div>
 
 

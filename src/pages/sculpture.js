@@ -14,18 +14,29 @@ import { Link } from 'gatsby-plugin-modal-routing'
 const SculpturePage = () => (
   <Layout>
     <SEO title="Rings as Sculpture" />
-
-    <div class="masonry">
-      <div class="item"><Link to="/page-sr1/" asModal><img src={ringImagesr1} alt="Ring sr1" class="thumbnail"/></Link></div>
-      <div class="item"><Link to="/page-sr2/" asModal><img src={ringImagesr2} alt="Ring sr2" class="thumbnail"/></Link></div>
-      <div class="item"><Link to="/page-sr3/" asModal><img src={ringImagesr3} alt="Ring sr3" class="thumbnail"/></Link></div>
-      <div class="item"><Link to="/page-sr4/" asModal><img src={ringImagesr4} alt="Ring sr4" class="thumbnail"/></Link></div>
-      <div class="item"><Link to="/page-sr5/" asModal><img src={ringImagesr5} alt="Ring sr5" class="thumbnail"/></Link></div>
-      <div class="item"><Link to="/page-sr6/" asModal><img src={ringImagesr6} alt="Ring sr6" class="thumbnail"/></Link></div>
-      <div class="item"><Link to="/page-sr7/" asModal><img src={ringImagesr7} alt="Ring sr7" class="thumbnail"/></Link></div>
-    
-   
+    <div class="container">
+      <div className="row"
+        style={{
+          margin: `0 auto`,
+          maxWidth: 500,
+          padding: `1.45rem 1.0875rem`,
+        }}
+      >
+        <h6 align="center">Rings that stand on their own as small sculptures when they are not being worn, some are combined with other jewelry pieces. </h6>
       </div>
+
+      <div class="masonry">
+        <div class="item"><Link to="/page-sr1/" asModal><img src={ringImagesr1} alt="Ring sr1" class="thumbnail" /></Link></div>
+        <div class="item"><Link to="/page-sr2/" asModal><img src={ringImagesr2} alt="Ring sr2" class="thumbnail" /></Link></div>
+        <div class="item"><Link to="/page-sr3/" asModal><img src={ringImagesr3} alt="Ring sr3" class="thumbnail" /></Link></div>
+        <div class="item"><Link to="/page-sr4/" asModal><img src={ringImagesr4} alt="Ring sr4" class="thumbnail" /></Link></div>
+        <div class="item"><Link to="/page-sr5/" asModal><img src={ringImagesr5} alt="Ring sr5" class="thumbnail" /></Link></div>
+        <div class="item"><Link to="/page-sr6/" asModal><img src={ringImagesr6} alt="Ring sr6" class="thumbnail" /></Link></div>
+        <div class="item"><Link to="/page-sr7/" asModal><img src={ringImagesr7} alt="Ring sr7" class="thumbnail" /></Link></div>
+
+
+      </div>
+    </div>
 
 
 

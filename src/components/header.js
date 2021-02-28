@@ -1,7 +1,7 @@
 import { Link } from "gatsby"
 import PropTypes from "prop-types"
 import React from "react"
-//import ringImage79 from "../images/everyday/79.jpg"
+
 
 const Header = ({ siteTitle, menuLinks }) => (
   <header
