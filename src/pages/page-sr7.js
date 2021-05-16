@@ -5,7 +5,7 @@ import "slick-carousel/slick/slick-theme.css";
 import ringImagesr7 from "../images/sculpture/sr7.jpg"
 import ringImagesr7a from "../images/sculpture/sr7a.jpg"
 import ringImagesr7b from "../images/sculpture/sr7b.jpg"
-import ringImagesr7c from "../images/sculpture/sr7b.jpg"
+import ringImagesr7c from "../images/sculpture/sr7c.jpg"
 import { Link } from 'gatsby-plugin-modal-routing'
 import ConditionalLayout from "../components/ConditionalLayout"
 
@@ -35,10 +35,10 @@ export default function SimpleSlider() {
             <div class="adimg ad3img">
               <img src={ringImagesr7b} alt="Ring sr7b" />
             </div>
+            <div class="adimg ad4img">
+              <img src={ringImagesr7c} alt="Ring sr7c" />
+            </div>
          
-
-
-
 
           </Slider>
 

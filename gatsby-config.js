@@ -21,10 +21,7 @@ module.exports = {
         name: 'about',
         link: '/about'
       },
-      {
-        name: 'coding',
-        link: '/splash'
-      },
+   
     ]
   },
   plugins: [
