@@ -23,7 +23,7 @@ const AboutPage = () => (
     </div>
   <div className="col">
     
-    <img src={ringImageprofile} alt="profile picture"/>
+    <img src={ringImageprofile} alt="profile"/>
     </div>
     </div>
   

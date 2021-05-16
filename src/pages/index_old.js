@@ -1,8 +1,11 @@
 import React from "react"
 import { Link } from "gatsby"
+// import Image from "../components/image"
+
 import ringImager6 from "../images/everyday/r6.jpg"
 import ringImage9 from "../images/unusual/9.jpg"
 import ringImagesr3 from "../images/sculpture/sr3.jpg"
+
 import Layout from "../components/layout"
 import SEO from "../components/seo"
 
@@ -22,14 +25,24 @@ const IndexPage = () => (
       </div>
       <div className="row">
         <div className="col-6 col-md-4 col-lg-3">
-          <Link to="/everyday/"><img src={ringImager6} alt="Ring r6" class="thumbnail2" /></Link><br></br>
-          <h6>Every Day Rings</h6></div>
+          <Link to="/everyday/"><img src={ringImager6} alt="Ring r6" class="thumbnail2" /></Link>
+        </div>
         <div className="col-6 col-md-4 col-lg-3">
-          <Link to="/sculpture/"><img src={ringImagesr3} alt="Ring sr3" class="thumbnail2" /></Link><br></br>
+          <Link to="/sculpture/"><img src={ringImagesr3} alt="Ring sr3" class="thumbnail2" /></Link>
+        </div>
+        <div className="col-6 col-md-4 col-lg-3">
+          <Link to="/unusual/"><img src={ringImage9} alt="Ring 9" class="thumbnail2" /></Link>
+        </div>
+      </div>
+      <div className="row">
+
+        <div className="col-6 col-md-4 col-lg-3">
+          <h6>Every Day Rings</h6>
+        </div>
+        <div className="col-6 col-md-4 col-lg-3">
           <h6>Rings as Sculpture</h6>
         </div>
         <div className="col-6 col-md-4 col-lg-3">
-          <Link to="/unusual/"><img src={ringImage9} alt="Ring 9" class="thumbnail2" /></Link><br></br>
           <h6>Unusual Rings </h6>
         </div>
       </div>
