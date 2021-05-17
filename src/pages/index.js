@@ -23,7 +23,8 @@ const IndexPage = () => (
       <div className="row">
         <div className="col-6 col-md-4 col-lg-3">
           <Link to="/everyday/"><img src={ringImager6} alt="Ring r6" class="thumbnail2" /></Link><br></br>
-          <h6>Every Day Rings</h6></div>
+          <h6>Every Day Rings</h6>
+        </div>
         <div className="col-6 col-md-4 col-lg-3">
           <Link to="/sculpture/"><img src={ringImagesr3} alt="Ring sr3" class="thumbnail2" /></Link><br></br>
           <h6>Rings as Sculpture</h6>
@@ -32,8 +33,6 @@ const IndexPage = () => (
           <Link to="/unusual/"><img src={ringImage9} alt="Ring 9" class="thumbnail2" /></Link><br></br>
           <h6>Unusual Rings </h6>
         </div>
-      </div>
-      <div>
       </div>
     </div>
 

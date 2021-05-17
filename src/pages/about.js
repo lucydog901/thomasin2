@@ -17,7 +17,9 @@ const AboutPage = () => (
    <p>Thomasin Durgin as a visual artist living in Memphis, TN. Ms. Durgin is a former Social Worker and Art Educator making a career change to Web Development. She is currently coding in Javascript using React and Gatsby.  </p>
    <p><b>Projects:</b><br></br>
      T. Durgin: Rings<br></br>
-     <a href="https://thomasin-norris.herokuapp.com/" target="blank">Chuck Norris Facts</a></p>
+     <a href="https://thomasin-norris.herokuapp.com/" target="blank">Chuck Norris Facts</a>
+     <br></br>
+     <a href="https://mystifying-stonebraker-308eaa.netlify.app/" target="blank">Bosch Meme</a></p>
      <p><b>Contact:</b><br></br>
     <a href="mailto:td@thomasin.com">td@thomasin.com</a></p>
     </div>
